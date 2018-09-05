@@ -32,12 +32,12 @@ Trong bài viết này bạn sẽ học:
   * cách Javascript Engine hoạt động
   * Execution Context trong Javascript
   * Call Stack là gì
-  * sự khác biệt giữa Global Execution Context và Local Execution Context
+  * Sự khác biệt giữa Global Execution Context và Local Execution Context
 
 ## Javascript: What Is The Execution Context? How Does Javascript Run Your
 Code?
 
-Javascript chạy Code của bạn như thế nào?  
+Javascript chạy code của bạn như thế nào?  
 
 Nếu bạn là một lập trình viên cao cấp thì có thể bạn đã biết câu trả lời là gì.  
 
@@ -108,7 +108,8 @@ Tin tốt? Tôi sẽ làm cho mọi thứ dễ hiểu đối với mọi ngườ
 
 Execution Context trong Javascript là gì?
 
-**Mỗi khi bạn chạy Javascript trong browser** (hoặc trong Node) **engine thực hiện chuỗi các bước**.
+**Mỗi khi bạn chạy Javascript trong browser** (hoặc trong Node) **
+thực hiện chuỗi các bước**.
 
 Một trong những bước này liên quan đến việc **tạo ra Global Execution Context**.
 
@@ -266,7 +267,7 @@ Hãy tiến thêm một bước nữa.
 
 Câu hỏi thú vị.
 
-Hành động **gọi một hàm trong Javascript khiến engnie yêu cầu trợ giúp**.
+Hành động **gọi một hàm trong Javascript khiến engine yêu cầu trợ giúp**.
 
 Và sự trợ giúp đó đến từ một người bạn của Javascript engine: **Call Stack**.
 
