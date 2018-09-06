@@ -7,7 +7,7 @@ Những thành phần nào là cơ bản nhất của một ngôn ngữ lập tr
 
 Các biến và hàm đúng không? Ai cũng có thể học những điều này.  
 
-Nhưng thứ gì ở xa hơn cả những điều cơ bản?  
+Nhưng thứ gì nằm ngoài những điều cơ bản?  
 
 Những phần trọng tâm nào của Javascript nào mà bạn nên làm chủ trước khi tự xem mình là một lập trình viên javascript trung cấp (hoặc thậm chí cao cấp)?  
 
@@ -63,7 +63,7 @@ Xong?
 
 Nó không có vẻ khó!
 
-Giờ cho tôi biết: **browser sẽ định thứ tự như thế nào cho đọan code đó**?
+Giờ cho tôi biết: **browser sẽ thực hiện đoạn code đó theo thứ tự nào**?
 
 Nói cách khác, nếu BẠN là browser, bạn sẽ đọc đoạn code đó thế nào?
 
@@ -79,13 +79,13 @@ _Trên xuống dưới_
 
 _Browser sẽ bắt đầu tại hàm pow, tính toán num*num_
 
-_JS engine sẽ chạy code dòng này sang dòng khác (đại loại thế)_
+_JS engine sẽ chạy code theo từng dòng (đại loại thế)_
 
 Tôi đã mong đợi điều đó.  
 
 Tôi đã nói chính xác những điều như vậy nhiều năm trước.  
 
-Trong phần tiếp theo, bạn sẽ khám phá ra cơ quan bộ máy phía sau **những đoạn code tưởng chừng như đơn giản**.
+Trong phần tiếp theo, bạn sẽ khám phá ra hoạt động phía sau **những đoạn code tưởng chừng như đơn giản**.
 
 
 ## Javascript: Execution Context là gì? Các Javascript Engine  
@@ -163,7 +163,7 @@ _**Engine**: Có vẻ như tôi đã xong._
 
 Nếu tôi hỏi lại bạn: browser "xem" đọan code sau như thế nào, bạn sẽ nói gì?
 
-Ừm, trong như là từ trên xuống dưới nhưng ...
+Ừm, trông như là từ trên xuống dưới nhưng ...
 
 Như bạn có thể thấy engine không chạy hàm pow!
 
